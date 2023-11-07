@@ -1,5 +1,5 @@
-@REM        // start %FILE% on %PATH% with no cmd display
+@REM        // start %FILE_EXE% on %PATH_TO_EXE% with no cmd display
 @echo off
-set PATH="C:\Users\matan\AppData\Local\Programs\desktop"
-set FILE="ClickUp.exe"
-start "" %PATH%"/"%FILE%
+set PATH_TO_EXE="C:\Users\matan\AppData\Local\Programs\desktop"
+set FILE_EXE="ClickUp.exe"
+start "" %PATH_TO_EXE%"/"%FILE_EXE%

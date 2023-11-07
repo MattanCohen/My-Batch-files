@@ -1,5 +1,10 @@
-@REM        // start %FILE% on %PATH% with no cmd display
 @echo off
-set PATH="C:\Program Files\Unity\Unity Hub"
-set FILE="Unity Hub.exe"
-start "" %PATH%"/"%FILE%
+
+set "PATH_TO_EXE=C:\Program Files\Unity\Unity Hub"
+set "FILE_NAME=Unity Hub.exe"
+
+pushd %PATH_TO_EXE%
+start "" "%FILE_NAME%"
+popd
+
+exit
